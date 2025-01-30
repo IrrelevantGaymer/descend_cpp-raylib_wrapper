@@ -5,10 +5,15 @@
         "language": "none"
     },
     "dependee": {
-        "lang.c": {
-            "include": ["/usr/local/include/raylib"],
-            "libpath": ["/usr/local/lib/raylib"],
-            "lib": ["raylib"]
+        "${os linux}": {
+            "lang.c": {
+                "include": ["/usr/local/include/raylib"],
+                "libpath": ["/usr/local/lib/raylib"],
+                "lib": ["raylib"]
+            }
+        },
+        "${os windows}": {
+            
         }
     }
 }
