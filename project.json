@@ -1,0 +1,14 @@
+{
+    "id": "raylib_wrapper",
+    "type": "package",
+    "value": {
+        "language": "none"
+    },
+    "dependee": {
+        "lang.c": {
+            "include": ["/usr/local/include/raylib"],
+            "libpath": ["/usr/local/lib/raylib"],
+            "lib": ["raylib"]
+        }
+    }
+}
